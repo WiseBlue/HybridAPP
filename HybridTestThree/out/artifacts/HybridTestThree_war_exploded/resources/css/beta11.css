@@ -1,0 +1,28 @@
+/*common 清除默认样式*/
+
+* {
+	padding: 0; margin: 0;
+	font-family: "微软雅黑";
+	list-style-type: none;
+}
+a {
+	border: 0;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+img{
+	border: 0;
+	display: block;
+}
+input, textarea {
+    outline: none;
+    border: none;
+}
+textarea {
+    resize: none;
+    overflow: auto;
+}
+.clearfix{
+	clear: both;
+}
+

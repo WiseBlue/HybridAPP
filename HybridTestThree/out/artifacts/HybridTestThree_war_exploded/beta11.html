@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>图片轮播响应式触摸ie7</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		
+		<link rel="stylesheet" type="text/css" href="resources/css/beta11.css"/>
+		
+		<!--
+        	作者：327106366@qq.com
+        	时间：2017-03-18
+        	描述：main2必需
+        -->
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+        <script src="resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="resources/js/jquery.glide.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--
+        	作者：327106366@qq.com
+        	时间：2017-03-18
+        	描述：main2必需
+        -->
+		
+	</head>
+	<body>
+		
+		
+		
+		<div class="main2">
+			<div class="sliderss">
+				<ul class="slides">
+					<li class="slide">
+						<div class="box-wrapper">
+							<img src="resources/image/bigdata1-1920.png"  class="box"/>
+							<img src="resources/image/bigdata1-1000.png"  class="box"/>
+							<img src="resources/image/bigdata1-640.png"  class="box"/>
+						</div>
+					</li>
+					<li class="slide">
+						<div class="box-wrapper">
+							<img src="resources/image/bigdata2-1920.png"  class="box"/>
+							<img src="resources/image/bigdata2-1000.png"  class="box"/>
+							<img src="resources/image/bigdata2-640.png"  class="box"/>
+						</div>
+					</li>
+					<li class="slide">
+						<div class="box-wrapper">
+							<img src="resources/image/bigdata3-1920.png"  class="box"/>
+							<img src="resources/image/bigdata3-1000.png"  class="box"/>
+							<img src="resources/image/bigdata3-640.png"  class="box"/>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+			<script type="text/javascript">
+				var glide = $('.sliderss').glide({
+						//autoplay:true,//是否自动播放 默认值 true如果不需要就设置此值
+						animationTime:500, //动画过度效果，只有当浏览器支持CSS3的时候生效
+						arrows:true, //是否显示左右导航器
+						arrowsWrapperClass: "arrowsWrapper",//滑块箭头导航器外部DIV类名
+						arrowMainClass: "sliderss-arrow",//滑块箭头公共类名
+						arrowRightClass:"sliderss-arrow--right",//滑块右箭头类名
+						arrowLeftClass:"sliderss-arrow--left",//滑块左箭头类名
+						arrowRightText:">",//定义左右导航器文字或者符号也可以是类
+						arrowLeftText:"<",
+	
+						nav:true, //主导航器也就是本例中显示的小方块
+						navCenter:true, //主导航器位置是否居中
+						navClass:"sliderss-nav",//主导航器外部div类名
+						navItemClass:"sliderss-nav__item", //本例中小方块的样式
+						navCurrentItemClass:"sliderss-nav__item--current" //被选中后的样式
+					});	
+			</script>
+		
+		</div>
+		
+		
+	</body>
+</html>

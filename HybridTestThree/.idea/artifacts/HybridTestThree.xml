@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HybridTestThree">
+    <output-path>$PROJECT_DIR$/out/artifacts/HybridTestThree</output-path>
+    <root id="archive" name="HybridTestThree.war">
+      <element id="artifact" artifact-name="HybridTestThree:war exploded" />
+    </root>
+  </artifact>
+</component>
